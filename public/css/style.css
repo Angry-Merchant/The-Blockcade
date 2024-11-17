@@ -491,7 +491,7 @@ header.d-flex {
   height: 55rem;
   position: relative;
   color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../../public/images/header.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../../public/images/logo.png");
   background-position: center bottom;
   background-size: cover;
   padding-bottom: 15rem;
@@ -509,9 +509,8 @@ header.d-flex .navigation {
   z-index: 10;
 }
 header.d-flex .navigation div {
-  margin: auto;
   padding: 1rem;
-  gap: 5rem;
+  gap: 2rem;
 }
 header.d-flex .navigation.sticky {
   position: fixed;
@@ -525,8 +524,8 @@ header.d-flex .navigation .bars {
   display: none;
 }
 header.d-flex .navigation .left .logo {
-  width: 80px;
-  height: 70px;
+  width:  50px;
+  height: 50px;
   background-image: url("../../public/images/logo.png");
   background-position: center;
   background-size: cover;
