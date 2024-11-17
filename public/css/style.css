@@ -508,6 +508,11 @@ header.d-flex .navigation {
   font-size: 1rem;
   z-index: 10;
 }
+header.d-flex .navigation div {
+  margin: auto;
+  padding: 1rem;
+  gap: 5rem;
+}
 header.d-flex .navigation.sticky {
   position: fixed;
   background: #21375E;
@@ -520,8 +525,8 @@ header.d-flex .navigation .bars {
   display: none;
 }
 header.d-flex .navigation .left .logo {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 70px;
   background-image: url("../../public/images/logo.png");
   background-position: center;
   background-size: cover;
@@ -532,6 +537,9 @@ header.d-flex .navigation .left p {
 }
 header.d-flex .navigation .left nav {
   padding: 1rem 0;
+}
+header.d-flex .navigation .left nav a {
+  font-size: 1.3rem;
 }
 header.d-flex .navigation .left nav a:hover {
   opacity: 0.9;
