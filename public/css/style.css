@@ -1242,4 +1242,10 @@ footer .copyright {
   }
 }
 
+@media (max-width: 1247px ) {
+  #iframe {
+    height: 2100px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
