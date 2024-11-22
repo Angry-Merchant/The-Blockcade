@@ -1392,6 +1392,12 @@ footer .copyright {
   }
 }
 
+@media (min-width: 800px) {
+  #iframe {
+    height: 1900px;
+  }
+}
+
 @media (min-width: 1200px) {
   #iframe {
     height: 1200px !important;
