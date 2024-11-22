@@ -1233,17 +1233,18 @@ footer .copyright {
 
 #iframe {
   height: 1200px;
+
 }
 
 @media (max-width: 768px) {
   #iframe {
-    max-height: 1900px;
+    height: 2100px;
   }
 }
 
 @media (max-width: 1247px ) {
   #iframe {
-    max-height: 1200px;
+    height: 1200px;
   }
 }
 
