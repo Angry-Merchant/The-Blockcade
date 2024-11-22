@@ -1231,4 +1231,20 @@ footer .copyright {
   color: #fff;
 }
 
+#iframe {
+  max-height: 1200px;
+}
+
+@media (max-width: 768px) {
+  #iframe {
+    max-height: 1900px;
+  }
+}
+
+@media (max-width: 1247px ) {
+  #iframe {
+    max-height: 1200px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
