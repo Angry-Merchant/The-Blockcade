@@ -1386,7 +1386,7 @@ footer .copyright {
 
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #iframe {
     height: 1900px;
   }
@@ -1394,7 +1394,7 @@ footer .copyright {
 
 @media (max-width: 800px) {
   #iframe {
-    height: 1900px;
+    height: 2100px;
   }
 }
 
