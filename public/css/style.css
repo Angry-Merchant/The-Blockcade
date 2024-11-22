@@ -1232,7 +1232,7 @@ footer .copyright {
 }
 
 #iframe {
-  max-height: 1200px;
+  height: 1200px;
 }
 
 @media (max-width: 768px) {
