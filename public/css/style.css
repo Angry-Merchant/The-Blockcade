@@ -1396,6 +1396,13 @@ footer .copyright {
   #iframe {
     height: 2100px;
   }
+
+}
+
+@media (max-width: 1199px) {
+  #iframe {
+    height: 2100px;
+  }
 }
 
 @media (min-width: 1200px) {
